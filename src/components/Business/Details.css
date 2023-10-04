@@ -1,0 +1,136 @@
+.details .column1 {
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.details .column2 {
+  width: 75%;
+  padding-top: 10px;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+  display:flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.details ol {
+  padding-left: 0rem;
+  width: 25vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.details h1 {
+  color: #002a5c;
+  font-size: 20px;
+  font-family: Inria Serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.details li {
+  color: #ffffff;
+  font-family: "Inria Serif-Bold", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 1.5vw;
+  padding-bottom: 2rem;
+  color: #f5f5f5b2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details .active {
+  background-color:#ff6f00;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.details select {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #00000080;
+  border-radius: 10px;
+  height: 3rem;
+  width: 55vw;
+  color: #002a5c;
+  padding-left: 1rem;
+}
+.details input {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #00000080;
+  border-radius: 10px;
+  height: 3rem;
+  width: 80%;
+  color: #002a5c;
+  padding-left: 10px;
+  justify-content: center;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(181, 165, 165, 0.5);
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #002A5C;
+  color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.accordion-button.collapsed{
+  background-color: #cfe2ff;
+}
+.react-datepicker__input-container input{
+  background-color: #002A5C;
+  color: #f5f5f5;
+}
+.EmojiPickerReact li.epr-emoji-category>.epr-emoji-category-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.epr-emoji-category{
+  display: flex;
+  flex-direction: column;
+}
+.multi-range-slider {
+  display: flex;
+  position: relative;
+  border:  0px;
+  border-radius: 10px;
+  padding: 20px 10px;
+  box-shadow: 0px 0px 0px black;
+  flex-direction: column;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.track-acc .accordion-button{
+  height: 2rem;
+  background-color: white;
+}
